@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+    text-align: center;
+    
+  }
+
+header {
+
+    color:blue;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding: 6px;
+    
+}
+
+  .two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .two-column-grid {
+    padding: 1rem;
+  } */
+
+  .B {
+    background-color: beige; 
+    padding: 1rem;
+
+}
+
+  .A {
+    background-color:aquamarine;
+    padding: 1rem;
+    color: white;
+ 
+  }
